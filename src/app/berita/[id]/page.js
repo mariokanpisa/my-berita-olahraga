@@ -1,8 +1,8 @@
-export default function BeritaTerbaru() {
+export default function BeritaPage() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-4">Halaman Berita</h1>
-      <p>Di sini akan tampil daftar berita terbaru seputar olahraga.</p>
+    <div className="p-4 text-white">
+      <h1 className="text-xl font-bold">Halaman Berita</h1>
+      <p>Daftar semua berita akan tampil di sini.</p>
     </div>
   );
 }
