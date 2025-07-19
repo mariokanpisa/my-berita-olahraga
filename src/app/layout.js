@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import "../app/globals.css";
 
 export const metadata = {
-  title: "My Berita Olahraga",
+  title: "My Berita Olahraga Update",
 };
 
 export default function RootLayout({ children }) {

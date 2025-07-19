@@ -1,4 +1,4 @@
-export default function JadwalPage() {
+export default function JadwalUpdate() {
   const jadwal = [
     { tanggal: "20 Juli 2025", pertandingan: "Barcelona vs Real Madrid" },
     { tanggal: "21 Juli 2025", pertandingan: "Arsenal vs Liverpool" },

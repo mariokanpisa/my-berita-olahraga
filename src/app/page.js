@@ -6,7 +6,7 @@ export default function Home() {
     <div className="grid md:grid-cols-3 gap-6">
       <div className="md:col-span-2 space-y-6">
         <NewsCard title="Argentina Juara Copa America!" summary="Argentina kembali menjuarai Copa America setelah pertandingan sengit." />
-        <NewsCard title="Transfer Panas Liga Inggris" summary="Beberapa klub besar melakukan transfer mengejutkan musim ini." />
+        <NewsCard title="Transfer Panas Liga Inggris" summary="Beberapa klub besar melakukan transfer mengejutkan di musim ini." />
       </div>
       <Sidebar />
     </div>
