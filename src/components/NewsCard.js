@@ -1,12 +1,8 @@
-import Link from "next/link";
-
-export default function NewsCard({ title, excerpt, slug }) {
+export default function NewsCard({ title, summary }) {
   return (
-    <div className="border p-4 rounded-lg shadow-md">
-      <h2 className="font-bold text-lg">
-        <Link href={`/berita/${slug}`}>{title}</Link>
-      </h2>
-      <p className="text-sm text-gray-600">{excerpt}</p>
+    <div className="p-4 bg-neutral-900 rounded-lg hover:bg-neutral-800 transition">
+      <h2 className="text-xl font-semibold">{title}</h2>
+      <p className="text-gray-400 mt-2">{summary}</p>
     </div>
   );
 }
