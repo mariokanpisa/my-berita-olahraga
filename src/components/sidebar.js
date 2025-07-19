@@ -1,11 +1,13 @@
 export default function Sidebar() {
   return (
-    <aside className="bg-neutral-900 rounded-lg p-4 space-y-2">
-      <h3 className="font-bold text-lg mb-2">Trending 🔥</h3>
-      <ul className="space-y-1 text-gray-400">
-        <li>Argentina Lagi Lagi Juara</li>
-        <li>Messi Pecahkan Rekor</li>
-        <li>Transfer Liga Inggris</li>
+    <aside className="bg-gray-900 text-white p-4 w-full md:w-64 rounded-lg">
+      <h2 className="text-lg font-semibold mb-4">Kategori Berita</h2>
+      <ul className="space-y-2">
+        <li><a href="#" className="hover:text-gray-400">Liga Inggris</a></li>
+        <li><a href="#" className="hover:text-gray-400">Liga Spanyol</a></li>
+        <li><a href="#" className="hover:text-gray-400">Liga Italia</a></li>
+        <li><a href="#" className="hover:text-gray-400">Tim Nasional</a></li>
+        <li><a href="#" className="hover:text-gray-400">Transfer Pemain</a></li>
       </ul>
     </aside>
   );
